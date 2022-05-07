@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var metros = 3200;
+        var transporte = '';
+
+        if (metros > 0 && metros <= 1000) {
+            transporte = "pie";
+        } else if (mestros > 1000 && metros <= 10000) {
+            transporte = "bicicleta"
+        } else if (mestros > 10000 && metros <= 30000) {
+            transporte = "colectivo"
+        } else if (mestros > 30000 && metros <= 100000) {
+            transporte = "auto"
+        } else if (mestros > 100000) {
+            transporte = "avion";
+        }
+
+    </script>
+</body>
+
+</html>
